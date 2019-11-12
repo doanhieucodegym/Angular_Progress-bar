@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NameCardComponent } from './name-card.component';
+import { PorgressBarComponent } from './porgress-bar.component';
 
-describe('NameCardComponent', () => {
-  let component: NameCardComponent;
-  let fixture: ComponentFixture<NameCardComponent>;
+describe('PorgressBarComponent', () => {
+  let component: PorgressBarComponent;
+  let fixture: ComponentFixture<PorgressBarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NameCardComponent ]
+      declarations: [ PorgressBarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NameCardComponent);
+    fixture = TestBed.createComponent(PorgressBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
